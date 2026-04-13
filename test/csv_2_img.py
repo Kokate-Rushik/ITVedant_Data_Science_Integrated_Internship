@@ -14,14 +14,10 @@ def save_top_five_as_image(csv_file_path, output_image_path):
 
     # 3. Save as image
     # Using dataframe_image to export the table directly
-    dfi.export(top_five, output_image_path)
+    dfi.export(top_five, output_image_path, max_cols=-1)
     print(f"Top 5 records saved to {output_image_path}")
 
-# Example Usage:
-# Create a dummy CSV for demonstration
-data = {'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Frank'],
-        'Score': [85, 90, 78, 92, 88, 76]}
-pd.DataFrame(data).to_csv('data.csv', index=False)
+
 
 # Run the function
-save_top_five_as_image('data.csv', 'top_five.png')
+save_top_five_as_image('./Week3/full_preprocessed.csv', 'full_preprocessed.png')

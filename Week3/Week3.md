@@ -9,10 +9,10 @@
 | Intern Name | Rushik Rajendra Kokate |
 | Intern ID | #37018 |
 | Program | Code B - Data Science Integrated Internship |
-| Organization | ITVedantReport |
+| Organization | ITVedant |
 | Date | March 2026 |
-| Week | 2 of 8 |
-| GitHub | [Link](https://github.com/Kokate-Rushik) |
+| Week | 3 of 8 |
+| GitHub | [Link](https://github.com/Kokate-Rushik/ITVedant_Data_Science_Integrated_Internship/tree/main/Week3) |
 
 ---
 
