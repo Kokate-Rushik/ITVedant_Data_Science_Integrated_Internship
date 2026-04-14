@@ -1,0 +1,104 @@
+{
+  "phishing_sample_1": {
+    "predicted_class": "phishing",
+    "phishing_probability": 0.98,
+    "actual_class": "phishing",
+    "top_features": {
+      "google_index": 0.248261,
+      "nb_hyperlinks": 0.160353,
+      "page_rank": 0.108142,
+      "web_traffic": 0.05494,
+      "domain_registration_length": 0.050973,
+      "ratio_intHyperlinks": 0.036878,
+      "hyperlink_diversity": 0.029383,
+      "phish_hints": 0.028801,
+      "char_repeat": 0.026032,
+      "length_hostname": 0.02465
+    }
+  },
+  "phishing_sample_2": {
+    "predicted_class": "phishing",
+    "phishing_probability": 0.98,
+    "actual_class": "phishing",
+    "top_features": {
+      "google_index": 0.248766,
+      "page_rank": 0.108363,
+      "ratio_digits_url": 0.055434,
+      "nb_www": 0.055414,
+      "web_traffic": 0.055052,
+      "nb_hyperlinks": 0.035043,
+      "safe_anchor": 0.033397,
+      "longest_words_raw": 0.033259,
+      "word_length_range": 0.031915,
+      "length_hostname": 0.027592
+    }
+  },
+  "phishing_sample_3": {
+    "predicted_class": "phishing",
+    "phishing_probability": 0.985,
+    "actual_class": "phishing",
+    "top_features": {
+      "google_index": 0.308878,
+      "page_rank": 0.134548,
+      "web_traffic": 0.068355,
+      "ratio_extHyperlinks": 0.067418,
+      "nb_hyperlinks": 0.04351,
+      "ratio_intHyperlinks": 0.039299,
+      "shortest_word_host": 0.029481,
+      "domain_age": 0.028459,
+      "domain_trust_score": 0.025942,
+      "safe_anchor": 0.023447
+    }
+  },
+  "legitimate_sample_1": {
+    "predicted_class": "legitimate",
+    "phishing_probability": 0.0058,
+    "actual_class": "legitimate",
+    "top_features": {
+      "nb_www": 0.12898,
+      "domain_registration_length": 0.118884,
+      "web_traffic": 0.097378,
+      "safe_anchor": 0.077732,
+      "longest_word_path": 0.073637,
+      "length_url": 0.038032,
+      "special_char_ratio": 0.034987,
+      "nb_hyperlinks": 0.033225,
+      "domain_age": 0.031763,
+      "avg_word_path": 0.029035
+    }
+  },
+  "legitimate_sample_2": {
+    "predicted_class": "legitimate",
+    "phishing_probability": 0.07,
+    "actual_class": "legitimate",
+    "top_features": {
+      "google_index": 0.291163,
+      "nb_hyperlinks": 0.08483,
+      "page_rank": 0.084554,
+      "nb_www": 0.064858,
+      "ratio_extHyperlinks": 0.050221,
+      "web_traffic": 0.041694,
+      "nb_hyphens": 0.032113,
+      "high_page_rank": 0.029964,
+      "ratio_intHyperlinks": 0.025764,
+      "domain_trust_score": 0.024454
+    }
+  },
+  "legitimate_sample_3": {
+    "predicted_class": "legitimate",
+    "phishing_probability": 0.02,
+    "actual_class": "legitimate",
+    "top_features": {
+      "page_rank": 0.265633,
+      "web_traffic": 0.080971,
+      "ratio_extRedirection": 0.064018,
+      "nb_hyperlinks": 0.056321,
+      "longest_word_path": 0.046532,
+      "word_length_range": 0.042833,
+      "char_repeat": 0.038366,
+      "high_page_rank": 0.037654,
+      "path_depth": 0.027815,
+      "domain_in_title": 0.027199
+    }
+  }
+}

@@ -1,0 +1,14 @@
+# Core ML
+scikit-learn==1.5.2
+numpy==1.26.4
+pandas==2.2.3
+
+# Explainability
+shap==0.45.1
+
+# Web framework
+flask==3.0.3
+gunicorn==22.0.0
+
+# Utilities
+python-dotenv==1.0.1

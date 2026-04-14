@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: phishing-detector-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app --workers 2 --bind 0.0.0.0:$PORT --timeout 120
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: MODEL_PATH
+        value: model/model.pkl
+      - key: PREDICTION_THRESHOLD
+        value: "0.5"
+      - key: FLASK_DEBUG
+        value: "false"
